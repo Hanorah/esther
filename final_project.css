@@ -173,7 +173,7 @@ body {
     position: relative;
     margin-top: 70vh;
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 #firstVideo {
@@ -1078,4 +1078,15 @@ body {
         width: 10vw;
     }
 
+}
+#upperPage img {
+    margin-top: 2em;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    display: block;
+}
+
+#content {
+    margin-top: 100vh; /* Pushes the content down */
 }
